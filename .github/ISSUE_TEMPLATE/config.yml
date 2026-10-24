@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/plenigon/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately. Never open a public issue for them.
+  - name: Business and partnerships
+    url: https://plenigon.com
+    about: Reach the Plenigon team at contact@plenigon.com.
