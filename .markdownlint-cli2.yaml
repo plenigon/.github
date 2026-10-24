@@ -1,0 +1,14 @@
+config:
+  default: true
+  # Long prose lines are allowed; Markdown is wrapped by the reader.
+  MD013: false
+  # The organization profile uses HTML for centered layout and themed logos.
+  MD033:
+    allowed_elements: [p, picture, source, img, a, strong]
+  # The profile starts with a centered logo instead of a heading.
+  MD041: false
+globs:
+  - "**/*.md"
+  - ".github/**/*.md"
+ignores:
+  - node_modules
